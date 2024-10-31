@@ -10,7 +10,7 @@ load_dotenv()
 huggingface_token = os.getenv("HUGGINGFACE_TOKEN")
 
 def main():
-    query = "Further lower dimensionality of autoencoder latent representation"  # 興味のある分野のクエリ
+    query = "diffusion model"  # 興味のある分野のクエリ
     max_papers = 10                           # 取得する最大論文数
 
     # arXivクライアントと埋め込みサービスを初期化
