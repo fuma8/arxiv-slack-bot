@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "arxiv-slack-bot"
+version = "0.1.0"
+description = ""
+authors = ["fuma8 <fuma.kimishima.3c@stu.hosei.ac.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.46.1"
+numpy = "^2.1.2"
+einops = "^0.8.0"
+python-dotenv = "^1.0.1"
+jina = "^3.27.18"
+requests = "^2.32.3"
+slack-sdk = "^3.33.3"
+torch = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
