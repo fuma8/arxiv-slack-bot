@@ -2,7 +2,7 @@
 name = "arxiv-slack-bot"
 version = "0.1.0"
 description = ""
-authors = ["fuma8 <fuma.kimishima.3c@stu.hosei.ac.jp>"]
+authors = ["--"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
